@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a9de97-7af2-4c26-9fbd-3aecdcbc3c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/antlr4/Test.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/Test.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/Test.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestBaseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestLexer.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parser/TestVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +47,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/br14n/IdeaProjects/my-antlr4-project/src/main/java/org/example/parser",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -126,7 +106,7 @@
       <workItem from="1692116702547" duration="3336000" />
       <workItem from="1692121538389" duration="5595000" />
       <workItem from="1692279237898" duration="5402000" />
-      <workItem from="1692285932425" duration="5684000" />
+      <workItem from="1692285932425" duration="6831000" />
     </task>
     <servers />
   </component>
