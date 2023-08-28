@@ -7,7 +7,6 @@
     <list default="true" id="f3a9de97-7af2-4c26-9fbd-3aecdcbc3c6f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyVisitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +48,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/br14n/IdeaProjects/my-antlr4-project/src/main/java/org/example/parser",
+    "last_opened_file_path": "/home/br14n/Descargas/RemoteProject/VSL-ANTL4",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,8 +67,10 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="my-antlr4-project" />
+      <module name="VSL-ANTL4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +117,7 @@
       <workItem from="1692622704705" duration="238000" />
       <workItem from="1692636879174" duration="81000" />
       <workItem from="1693230898129" duration="5137000" />
+      <workItem from="1693250587993" duration="1513000" />
     </task>
     <servers />
   </component>
@@ -132,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

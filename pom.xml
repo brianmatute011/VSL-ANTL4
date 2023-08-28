@@ -43,6 +43,7 @@
       <plugin>
         <groupId>org.antlr</groupId>
         <artifactId>antlr4-maven-plugin</artifactId>
+        <version>4.12.0</version> 
         <!-- ... ANTLR4 Configuration ... -->
       </plugin>
       <plugin>

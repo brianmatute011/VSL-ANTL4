@@ -7,7 +7,11 @@ import org.elasticsearch.client.RestClient;
 import org.example.parser.TestBaseVisitor;
 import org.example.parser.TestParser;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.stream.Collectors;
 
 public class MyVisitor extends TestBaseVisitor<String> {
     private RestClient esClient;
@@ -15,6 +19,12 @@ public class MyVisitor extends TestBaseVisitor<String> {
 
     public MyVisitor(){
         this.esClient = RestClient.builder(new HttpHost("172.16.152.80", 9200, "http")).build();
+    }
+
+    private String convertInputStreamToString(InputStream inputStream) throws IOException {
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
+            return bufferedReader.lines().collect(Collectors.joining("\n"));
+        }
     }
 
     @Override
@@ -32,7 +42,8 @@ public class MyVisitor extends TestBaseVisitor<String> {
             try {
                 Response response = esClient.performRequest(request);
                 // Procesar la respuesta de Elasticsearch según tus necesidades
-                System.out.println(response.getEntity().getContent());
+                System.out.println(convertInputStreamToString(response.getEntity().getContent()));
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
