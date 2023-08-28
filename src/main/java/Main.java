@@ -7,7 +7,7 @@ import org.example.parser.TestParser;
 
 public class Main {
     public static void main(String[] args) {
-        String input = "KIKIKIKIKI";
+        String input = "KII";
         CharStream inputStream = CharStreams.fromString(input); // Usar CharStreams en lugar de ANTLRInputStream
         TestLexer lexer = new TestLexer(inputStream);
         CommonTokenStream tokenStream = new CommonTokenStream(lexer);
@@ -15,7 +15,5 @@ public class Main {
         TestParser.ProgramContext programContext = parser.program();
         MyVisitor visitor = new MyVisitor();
         visitor.visit(programContext);
-
-
     }
 }
